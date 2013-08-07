@@ -18,7 +18,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'redis'
   s.add_dependency 'amico'
-  s.add_dependency "rails", "~> 3.1"
 
   s.add_development_dependency "rspec-rails"
   s.add_development_dependency "sqlite3"

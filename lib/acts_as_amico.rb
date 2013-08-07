@@ -1,4 +1,3 @@
-require 'rails/all'
 require 'redis'
 require 'amico'
 require 'acts_as_amico'
