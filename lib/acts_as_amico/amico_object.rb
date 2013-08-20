@@ -101,6 +101,10 @@ module ActsAsAmico
         scope = options[:scope] || Amico.default_scope_key
         Amico.accept(amico_key, obj.amico_key, scope)
       end
+      def deny! obj, options = {}
+        scope = options[:scope] || Amico.default_scope_key
+        Amico.deny(amico_key, obj.amico_key, scope)
+      end
       def block! obj, options = {}
         scope = options[:scope] || Amico.default_scope_key
         Amico.block(amico_key, obj.amico_key, scope)
